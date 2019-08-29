@@ -1,0 +1,145 @@
+#promo1{
+    background-image: url(../img/720/Girl\ 2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 350px;
+    padding: 0px;
+}
+#promo2{
+    background-image: url(../img/720/Lion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 350px;
+    padding: 0px;
+}
+
+#promo1:hover #fondoTransparente{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479) ;
+}
+
+#promo2:hover #fondoTransparente{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466) ;
+}
+
+#promo1:hover{
+    animation-duration: 0.7s; 
+    animation-name:fotoanimacion1; 
+    background-size: 140%;
+}
+#promo2:hover{
+    animation-duration: 0.7s; 
+    animation-name:fotoanimacion1; 
+    background-size: 140%;
+}
+
+@keyframes fotoanimacion1 { 
+    0%{
+        background-size: 100%;
+    } 
+    100%{
+        background-size: 140%;
+    }  
+}
+
+
+@media all and (max-width:1180px) and (min-width:970px) {
+
+
+    #promo1{
+        background-image: url(../img/720/Girl\ 2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 300px;
+        padding: 0px;
+    }
+    #promo2{
+        background-image: url(../img/720/Lion.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 300px;
+        padding: 0px;
+    }
+
+
+
+}
+
+@media all and (max-width:969px) and (min-width:770px) {
+
+
+    #promo1{
+        background-image: url(../img/720/Girl\ 2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 250px;
+        padding: 0px;
+    }
+    #promo2{
+        background-image: url(../img/720/Lion.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 250px;
+        padding: 0px;
+    }
+
+
+
+}
+
+@media all and (max-width:769px) and (min-width:570px) {
+
+
+    #promo1{
+        background-image: url(../img/720/Girl\ 2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 300px;
+        padding: 0px;
+    }
+    #promo2{
+        background-image: url(../img/720/Lion.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 300px;
+        padding: 0px;
+    }
+
+
+
+}
+
+@media all and (max-width:570px) and (min-width:0px) {
+
+
+    #promo1{
+        background-image: url(../img/720/Girl\ 2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 200px;
+        padding: 0px;
+    }
+    #promo2{
+        background-image: url(../img/720/Lion.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 200px;
+        padding: 0px;
+    }
+
+
+
+}

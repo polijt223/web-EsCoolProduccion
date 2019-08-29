@@ -1,0 +1,544 @@
+#contenedorServicio1{
+    margin-top: -150px;
+    font-size: 80px;
+}
+#contenedorServicio2{
+    margin-top: -100px;
+    font-size: 80px;
+}
+#contenedorServicio3{
+    margin-top: -50px;
+    font-size: 80px;
+}
+
+#contenedorServicioMusica{
+    font-size: 80px;
+}
+
+
+
+#rayoazul{
+    background-image: url(../img/rayoazul.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 290px;
+    margin-top:-280px;
+    z-index: -300;
+}
+/*Servicio 1 */
+#descubri1Serv1{
+    position:absolute; 
+    top:15%; 
+    left:35%;
+}
+
+#descubri2Serv1{
+    position:absolute; 
+    top:42%; 
+    left:25%;
+}
+
+/*Servicio 2 */
+#descubri1Serv2{
+    position:absolute; 
+    top:15%; 
+    left:22%;
+}
+
+/*Servicio 3 */
+#descubri1Serv3{
+    position:absolute; 
+    top:15%; 
+    left:35%;
+}
+#descubri2Serv3{
+    position:absolute; 
+    top:42%; 
+    left:25%;
+}
+
+
+#servicioAnimado1{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/noticias/gift-box-2458012_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioAnimado2{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/desktop-1985856_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioAnimado3{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/noticias/volunteers-3874924_1920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#servicioMusica{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/dj-720589bw_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioDj{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/dj-2581269bw_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioIluminacion{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/audiencebw-1853662_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioFotografia{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/night-bw1927265_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#servicioDiseño{
+	min-height: 300px;
+    max-width: 100%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-image: url(../img/servicios/desktopbw-1985856_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#contenedoservicio{
+    background-color: #343a40;
+}
+#contenedoservicio:hover{
+    background-color: #ff97da;
+    color:#343a40;
+}
+#contenedoservicio:hover #servicioMusica{
+    background-image: url(../img/servicios/dj-720589_1920.jpg);
+}
+#contenedoservicio:hover #servicioDj{
+    background-image: url(../img/servicios/dj-2581269_1920.jpg);
+}
+#contenedoservicio:hover #servicioIluminacion{
+    background-image: url(../img/servicios/audience-1853662_1920.jpg);
+}
+#contenedoservicio:hover #servicioFotografia{
+    background-image: url(../img/servicios/night-1927265_1920.jpg);
+}
+#contenedoservicio:hover #servicioDiseño{
+    background-image: url(../img/servicios/desktop-1985856_1920.jpg);
+}
+
+#rectangulo1{
+    position: absolute;
+    top: 0px;
+	left:0px;
+    width: 51%;
+    height: 100%;
+	background-color: #343a40; 
+}
+#rectangulo2{
+    position: absolute;
+    top: 0px;
+	right:0px;
+    width: 51%;
+    height: 100%;
+	background-color: #343a40; 
+}
+#rectangulo3{
+    position: absolute;
+    bottom: 0px;
+	left:0px;
+    width: 100%;
+    height: 60%;
+    background-color: #000000b7; 
+    visibility:hidden;
+}
+
+#servicioAnimado1:hover #rectangulo1{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+#servicioAnimado1:hover #rectangulo2{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+#servicioAnimado2:hover #rectangulo1{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+#servicioAnimado2:hover #rectangulo2{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+#servicioAnimado3:hover #rectangulo1{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+#servicioAnimado3:hover #rectangulo2{
+    animation-duration: 1s; 
+    animation-name:recAnimacion; 
+    width: 0%;
+}
+
+
+#servicioAnimado1:hover #descubri1Serv1{
+    visibility:hidden;
+}
+#servicioAnimado1:hover #descubri2Serv1{
+    visibility:hidden;
+}
+#servicioAnimado1:hover #rectangulo3{
+    transition-delay: 0.5s;
+    visibility:visible;
+}
+
+
+#servicioAnimado2:hover #descubri1Serv2{
+    visibility:hidden;
+}
+#servicioAnimado2:hover #rectangulo3{
+    transition-delay: 0.5s;
+    visibility:visible;
+}
+
+
+#servicioAnimado3:hover #descubri1Serv3{
+    visibility:hidden;
+}
+#servicioAnimado3:hover #descubri2Serv3{
+    visibility:hidden;
+}
+#servicioAnimado3:hover #rectangulo3{
+    transition-delay: 0.5s;
+    visibility:visible;
+}
+
+@keyframes recAnimacion { 
+    0%{
+        width: 50%;
+    } 
+    100%{
+        width: 0%;
+    }  
+}
+
+
+
+
+
+
+
+@media all and (max-width:1634px) and (min-width:1178px) {
+	#contenedorServicio1{
+        margin-top: -120px;
+        font-size: 68px;
+    }
+    #contenedorServicio2{
+        margin-top: -70px;
+        font-size: 68px;
+    }
+    #contenedorServicio3{
+        margin-top: -20px;
+        font-size: 68px;
+    }
+    
+    #servicioAnimado{
+        min-height: 300px;
+        max-width: 100%; 
+        padding-right: 0px;
+        padding-left: 0px;
+        position: relative;
+        background-image: url(../img/720/Magic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    /*Servicio 1 */
+    #descubri1Serv1{
+        position:absolute; 
+        top:15%; 
+        left:35%;
+    }
+
+    #descubri2Serv1{
+        position:absolute; 
+        top:42%; 
+        left:25%;
+    }
+
+    /*Servicio 2 */
+    #descubri1Serv2{
+        position:absolute; 
+        top:15%; 
+        left:17%;
+    }
+
+    /*Servicio 3 */
+    #descubri1Serv3{
+        position:absolute; 
+        top:15%; 
+        left:35%;
+    }
+    #descubri2Serv3{
+        position:absolute; 
+        top:42%; 
+        left:25%;
+    }
+
+
+
+
+
+}
+
+@media all and (max-width:1177px) and (min-width:991px) {
+	#contenedorServicio1{
+        margin-top: -95px;
+        font-size: 58px;
+    }
+    #contenedorServicio2{
+        margin-top: -50px;
+        font-size: 58px;
+    }
+    #contenedorServicio3{
+        margin-top: -20px;
+        font-size: 58px;
+    }
+    
+    #servicioAnimado{
+        min-height: 300px;
+        max-width: 100%; 
+        padding-right: 0px;
+        padding-left: 0px;
+        position: relative;
+        background-image: url(../img/720/Magic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    /*Servicio 1 */
+    #descubri1Serv1{
+        position:absolute; 
+        top:15%; 
+        left:30%;
+    }
+
+    #descubri2Serv1{
+        position:absolute; 
+        top:42%; 
+        left:20%;
+    }
+
+    /*Servicio 2 */
+    #descubri1Serv2{
+        position:absolute; 
+        top:15%; 
+        left:13%;
+    }
+
+    /*Servicio 3 */
+    #descubri1Serv3{
+        position:absolute; 
+        top:15%; 
+        left:30%;
+    }
+    #descubri2Serv3{
+        position:absolute; 
+        top:42%; 
+        left:20%;
+    }
+
+
+}
+
+@media all and (max-width:990px) and (min-width:768px) {
+	#contenedorServicio1{
+        margin-top: -95px;
+        font-size: 58px;
+    }
+    #contenedorServicio2{
+        margin-top: -70px;
+        font-size: 58px;
+    }
+    #contenedorServicio3{
+        margin-top: 20px;
+        font-size: 58px;
+    }
+    #descubri1Serv3{
+        position:absolute; 
+        top:15%; 
+        left:40%;
+    }
+    #descubri2Serv3{
+        position:absolute; 
+        top:42%; 
+        left:35%;
+    }
+    #descubri1Serv2{
+        position:absolute; 
+        top:20%; 
+        left:25%;
+    }
+    #descubri1Serv1{
+        position:absolute; 
+        top:15%; 
+        left:30%;
+    }
+    #descubri2Serv1{
+        position:absolute; 
+        top:42%; 
+        left:25%;
+    }
+    #rayoazul{
+        visibility: hidden;
+    }
+    
+
+}
+
+@media all and (max-width:767px) and (min-width:576px) {
+	#contenedorServicio1{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    #contenedorServicio2{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    #contenedorServicio3{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    /*SERVICIO 3*/
+    #descubri1Serv3{
+        position:absolute; 
+        top:15%; 
+        left:40%;
+    }
+    #descubri2Serv3{
+        position:absolute; 
+        top:42%; 
+        left:35%;
+    }
+     /*SERVICIO 2*/
+    #descubri1Serv2{
+        position:absolute; 
+        top:20%; 
+        left:15%;
+    }
+     /*SERVICIO 1*/
+    #descubri1Serv1{
+        position:absolute; 
+        top:15%; 
+        left:30%;
+    }
+    #descubri2Serv1{
+        position:absolute; 
+        top:42%; 
+        left:18%;
+    }
+
+    #rayoazul{
+        visibility: hidden;
+    }
+
+}
+
+@media all and (max-width:575px) and (min-width:0px) {
+	#contenedorServicio1{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    #contenedorServicio2{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    #contenedorServicio3{
+        margin-top: 20px;
+        font-size: 48px;
+    }
+    /*SERVICIO 3*/
+    #descubri1Serv3{
+        position:absolute; 
+        top:15%; 
+        left:35%;
+    }
+    #descubri2Serv3{
+        position:absolute; 
+        top:42%; 
+        left:25%;
+    }
+     /*SERVICIO 2*/
+    #descubri1Serv2{
+        position:absolute; 
+        top:20%; 
+        left:22%;
+    }
+     /*SERVICIO 1*/
+    #descubri1Serv1{
+        position:absolute; 
+        top:15%; 
+        left:35%;
+    }
+    #descubri2Serv1{
+        position:absolute; 
+        top:42%; 
+        left:25%;
+    }
+
+    #rayoazul{
+        visibility: hidden;
+    }
+
+}

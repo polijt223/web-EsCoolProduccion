@@ -1,0 +1,209 @@
+#contenedorAnimacionDeslisable{
+    position:fixed;
+    left: 0px;
+    top:60px;
+	min-height: 200px;
+	max-width: 310px;
+	z-index: 1200;
+}
+
+
+
+
+#deslizable1{
+	position:absolute;
+	left:0px;
+	top:10px;
+	height: 45px;  
+	background: #79c0de;
+	border-radius: 0 40% 40% 0;
+	position: relative;
+    box-shadow: 0px 9px 20px 13px rgba(0,0,0,0.75);
+
+    width: 45px; 
+    padding:10px 0px 0px 40px;
+}
+#deslizable2{
+	position:absolute;
+	left:0px;
+	top:10px;
+	height: 45px;     
+	background: #ff97da;
+	border-radius: 0 40% 40% 0;
+    position: relative;
+    box-shadow: 0px 9px 20px 13px rgba(0,0,0,0.75);
+
+    width: 45px; 
+    padding:10px 0px 0px 40px;
+
+}
+#deslizable3{
+	position:absolute;
+	left:0px;
+	top:10px;
+	height: 45px;     
+	background: #0b7189;
+	border-radius: 0 40% 40% 0;
+    position: relative;
+    box-shadow: 0px 9px 20px 13px rgba(0,0,0,0.75);
+    
+    width: 45px; 
+    padding:10px 0px 0px 40px;
+
+}
+#deslizable4{
+	position:absolute;
+	left:0px;
+	top:10px;
+	height: 45px;    
+	background: #545253;
+	border-radius: 0 40% 40% 0;
+    position: relative;
+    box-shadow: 0px 9px 20px 13px rgba(0,0,0,0.75);
+    
+    width: 45px; 
+    padding:10px 0px 0px 40px;
+
+}
+
+
+
+
+
+
+#imagen1Deslizable{
+    margin: 5px;
+    margin-top:-2px;
+    margin-left:-35px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/redesSociales/fb1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#imagen2Deslizable{
+    margin: 5px;
+    margin-top:-2px;
+    margin-left:-35px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/redesSociales/inta1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#imagen3Deslizable{
+    margin: 5px;
+    margin-top:-2px;
+    margin-left:-35px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/redesSociales/pin1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#imagen4Deslizable{
+    margin: 5px;
+    margin-top:-2px;
+    margin-left:-35px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/redesSociales/tw1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#imagen1Deslizable:hover{
+    background-image: url(../img/redesSociales/fb2.png);
+}
+#imagen2Deslizable:hover{
+    background-image: url(../img/redesSociales/inta2.png);
+}
+#imagen3Deslizable:hover{
+    background-image: url(../img/redesSociales/pin2.png);
+}
+#imagen4Deslizable:hover{
+    background-image: url(../img/redesSociales/tw2.png);
+}
+
+
+
+
+#contenedorAnimacionDeslisable:hover #deslizable1{
+    animation-duration: 0.5s; 
+    animation-name:animaciondeslizable; 
+	width: 75px; 
+    padding:10px 0px 0px 40px;
+}
+#contenedorAnimacionDeslisable:hover #deslizable2{
+    animation-duration: 0.5s; 
+    animation-name:animaciondeslizable; 
+	width: 75px; 
+    padding:10px 0px 0px 40px;
+}
+#contenedorAnimacionDeslisable:hover #deslizable3{
+    animation-duration: 0.5s; 
+    animation-name:animaciondeslizable; 
+	width: 75px;
+    padding:10px 0px 0px 40px;
+}
+#contenedorAnimacionDeslisable:hover #deslizable4{
+    animation-duration: 0.5s; 
+    animation-name:animaciondeslizable; 
+	width: 75px;
+    padding:10px 0px 0px 40px;
+}
+
+
+
+#contenedorAnimacionDeslisable:hover #imagen1Deslizable{
+    animation-duration: 0.5s; 
+    animation-name:moverImagen; 
+	margin-left:-5px;
+}
+#contenedorAnimacionDeslisable:hover #imagen2Deslizable{
+    animation-duration: 0.5s; 
+    animation-name:moverImagen; 
+	margin-left:-5px;
+}
+#contenedorAnimacionDeslisable:hover #imagen3Deslizable{
+    animation-duration: 0.5s; 
+    animation-name:moverImagen; 
+	margin-left:-5px;
+}
+#contenedorAnimacionDeslisable:hover #imagen4Deslizable{
+    animation-duration: 0.5s; 
+    animation-name:moverImagen; 
+	margin-left:-5px;
+}
+
+
+
+
+
+
+
+
+@keyframes animaciondeslizable { 
+    0%{
+        width: 55px; 
+        padding:10px 0px 0px 40px;
+    } 
+    100%{
+		width: 75px;
+        padding:10px 0px 0px 40px;
+    }  
+}
+
+@keyframes moverImagen { 
+    0%{
+        margin-left:-35px;
+    } 
+    100%{
+		margin-left:-5px;
+    }  
+}
+

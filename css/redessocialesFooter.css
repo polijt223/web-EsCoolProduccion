@@ -1,0 +1,49 @@
+#pngFace{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/redesSociales/fb1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#pngInsta{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/redesSociales/inta1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#pngPint{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/redesSociales/pin1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#pngTw{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/redesSociales/tw1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#pngFace:hover{
+    background-image: url(../img/redesSociales/fb2.png);
+}
+#pngInsta:hover{
+    background-image: url(../img/redesSociales/inta2.png);
+}
+#pngPint:hover{
+    background-image: url(../img/redesSociales/pin2.png);
+}
+#pngTw:hover{
+    background-image: url(../img/redesSociales/tw2.png);
+}

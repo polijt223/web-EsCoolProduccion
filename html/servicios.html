@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <title>EsCool Servicios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="../img/isoLogoSvg.ico">  
+
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/home-estilos-1.css">
+        <link rel="stylesheet" href="../css/home-noticias.css">
+        <link rel="stylesheet" href="../css/home-promociones.css">
+        <link rel="stylesheet" href="../css/home-productos.css">
+        <link rel="stylesheet" href="../css/redessociales.css">
+        <link rel="stylesheet" href="../css/redessocialesFooter.css">
+        <link rel="stylesheet" href="../css/preguntasFrecuentes.css">
+
+    </head>
+    <body>
+        
+       <!--NAVBAR-->
+        <nav id="navth" class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class=" navbar-brand mr-5" href="#carouselId">
+                    <img src="../img/logoSvg.svg" height="42px" alt=""> 
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  " id="collapsibleNavId" 
+                    <ul class="navbar-nav mr-auto ml-2 mt-2 mt-lg-0" >
+                        <li class="nav-item ml-2 ">
+                            <a class="nav-link " id="itemMenu" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-2 ">
+                            <a class="nav-link " id="itemMenu" href="productos.html">Productos <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-2 ">
+                            <a class="nav-link " id="itemMenu" href="servicios.html">Servicios <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-2 ">
+                            <a class="nav-link " id="itemMenu" href="combos.html">Combos! <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-2 ">
+                            <a class="nav-link " id="itemMenu" href="noticias.html">Noticias <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown ml-2">
+                            <a class=" nav-link  dropdown-toggle cursorMouse"  id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Información</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a id="dropdowncolor1" href="contacto.html" class="dropdown-item hbutton cursorMouse">Contacto </a>
+                                <a id="dropdowncolor1" href="faq.html" class="dropdown-item hbutton cursorMouse">Preguntas Frecuentes</a>
+                                <a id="dropdowncolor2" href="nosotros.html" class="dropdown-item hbutton cursorMouse">Nosotros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown ml-2">
+                            <a class=" nav-link  dropdown-toggle cursorMouse"  id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trabajos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a id="dropdowncolor1" href="trabajosfotograficos.html" class="dropdown-item hbutton cursorMouse">Trabajos Fotograficos</a>
+                                <a id="dropdowncolor2" href="trabajosaudio-visuales.html" class="dropdown-item hbutton cursorMouse">Trabajos Audio-Visuales</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--REDES SOCIALES-->
+        <div class="d-none d-xl-block" id="contenedorAnimacionDeslisable">
+            <div id="deslizable1"><a href="https://www.facebook.com/" target="_blank"><div id="imagen1Deslizable"></div></a></div>
+            <div id="deslizable2"><a href="https://www.instagram.com/?hl=es-la" target="_blank"><div id="imagen2Deslizable"></div></a></div>
+            <div id="deslizable3"><a href="https://ar.pinterest.com/" target="_blank"><div id="imagen3Deslizable"></div></a></div>
+            <div id="deslizable4"><a href="https://twitter.com/?lang=es" target="_blank"><div id="imagen4Deslizable"></div></a></div>
+        </div>
+
+        <!--SERVICIOS y Noticia-->
+        <br><br><br><br>
+        <div id="contenedoservicio" onmouseover="colorearImagenMusica()" onmouseout="desColorearImagenMusica()" class="container mt-5 sombraperso">
+            <div class="row p-4"> 
+                <div class="col-12 text-center ">
+                    <p class="d-block d-sm-none Lobster-Regular  mt-3 h1 text-light wow bounceInLeft">Sonido!</p>
+                    <p class="d-none d-sm-block Lobster-Regular  mt-3 display-3 text-light wow bounceInLeft">Sonido!</p>
+                </div>
+                
+                <div id="contenedorServicioMusica" class="col-12 text-center color1 cursorMouse">
+                    <img id="imgsonido" class="img-fluid rounded img-thumbnail" src="../img/servicios/dj-720589bw_1920.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedoservicio" onmouseover="colorearImagenIluminacion()" onmouseout="desColorearImagenIluminacion()" class="container mt-5 sombraperso">
+            <div class="row p-4"> 
+                <div class="col-12 text-center ">
+                    <p class="d-block d-sm-none Lobster-Regular  mt-3 h1 text-light wow bounceInLeft">Iluminación!</p>
+                    <p class="d-none d-sm-block Lobster-Regular  mt-3 display-3 text-light wow bounceInLeft">Iluminación!</p>
+                </div>
+                
+                <div id="contenedorServicioMusica" class="col-12 text-center color1 cursorMouse">
+                    <img id="imgIluminacion" class="img-fluid rounded img-thumbnail" src="../img/servicios/audiencebw-1853662_1920.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedoservicio" onmouseover="colorearImagenDj()" onmouseout="desColorearImagenDj()" class="container mt-5 sombraperso">
+            <div class="row p-4"> 
+                <div class="col-12 text-center ">
+                    <p class="d-block d-sm-none Lobster-Regular  mt-3 h1 text-light wow bounceInLeft">Dj´s!</p>
+                    <p class="d-none d-sm-block Lobster-Regular  mt-3 display-3 text-light wow bounceInLeft">Dj´s!</p>
+                </div>
+                
+                <div id="contenedorServicioMusica" class="col-12 text-center color1 cursorMouse">
+                    <img id="imgDj" class="img-fluid rounded img-thumbnail" src="../img/servicios/dj-2581269bw_1920.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedoservicio" onmouseover="colorearImagenFotografia()" onmouseout="desColorearImagenFotografia()" class="container mt-5 sombraperso">
+            <div class="row p-4"> 
+                <div class="col-12 text-center ">
+                    <p class="d-block d-sm-none Lobster-Regular  mt-3 h1 text-light wow bounceInLeft">Fotografía!</p>
+                    <p class="d-none d-sm-block Lobster-Regular  mt-3 display-3 text-light wow bounceInLeft">Fotografía!</p>
+                </div>
+                
+                <div id="contenedorServicioMusica" class="col-12 text-center color1 cursorMouse">
+                    <img id="imgFotografia" class="img-fluid rounded img-thumbnail" src="../img/servicios/night-bw1927265_1920.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedoservicio" onmouseover="colorearImagenDiseno()" onmouseout="desColorearImagenDiseno()" class="container mt-5 sombraperso">
+            <div class="row p-4"> 
+                <div class="col-12 text-center ">
+                    <p class="d-block d-sm-none Lobster-Regular  mt-3 h1 text-light wow bounceInLeft">Diseños Personalizados</p>
+                    <p class="d-none d-sm-block Lobster-Regular  mt-3 display-3 text-light wow bounceInLeft">Diseños Personalizados</p>
+                </div>
+                
+                <div id="contenedorServicioMusica" class="col-12 text-center color1 cursorMouse">
+                    <img id="imgDiseno" class="img-fluid rounded img-thumbnail" src="../img/servicios/desktopbw-1985856_1920.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+          <!--FOOTER-->
+       <div class="container-fluid bg-dark mt-5">
+           <div class="row justify-content-center">
+                <div class="d-block d-sm-none col-12 col-md-6 col-lg-4 py-5 text-left">
+                    <p>
+                        <a  href="https://www.facebook.com/" target="_blank"><div class="d-none" id="pngFace"></div></a>
+                        <a href="https://www.facebook.com/" target="_blank"><div id="pngFace"></div></a>
+                        <a href="https://www.instagram.com/?hl=es-la" target="_blank"><div id="pngInsta"></div></a>
+                        <a href="https://ar.pinterest.com/" target="_blank"><div id="pngPint"></div></a>
+                        <a href="https://twitter.com/?lang=es" target="_blank"><div id="pngTw"></div></a>
+                    </p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/empresa.png" height="50px" width="50px"></span> <span class="pl-2 text-light">EsCool Producciones</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/telefono.png" height="50px" width="50px"></span> <span class="pl-2  text-light">3516640527</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/celular.png" height="50px" width="50px"></span>	<span class="pl-2  text-light">3516640527</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/direccion.png" height="50px" width="50px"></span> <span class="pl-2  text-light">Alvear 184 local 18</span></p>
+                    <p class="mt-3 h6"><span class="color2"><img src="../img/iconos footer/mail.png" height="50px" width="50px"></span> <span class="pl-2  text-light">escoolinfo@gmail.com</span></p>
+                   
+                    <a class="d-none d-sm-block" href="contacto.html"><button type="button" class="mt-3 btn btn-outline-light p-3"><span class="h3">Ir a Contacto</span></button></a>
+                    <a class="d-none d-sm-block" href="faq.html"><button type="button" class="mt-3 btn btn-outline-light p-3"><span class="h3">Preguntas Frecuentes</span></button></a>
+
+
+                    <a class="d-block d-sm-none" href="contacto.html"><button type="button" class="mt-3 btn btn-outline-light p-2"><span class="h5">Ir a Contacto</span></button></a>
+                    <a class="d-block d-sm-none" href="faq.html"><button type="button" class="mt-3 btn btn-outline-light p-2"><span class="h5">Preguntas Frecuentes</span></button></a>
+
+
+
+                </div>
+
+                <div class="d-none d-sm-block col-12 col-md-6 col-lg-4 p-5 text-left">
+                    <p>
+                        <a  href="https://www.facebook.com/" target="_blank"><div class="d-none" id="pngFace"></div></a>
+                        <a href="https://www.facebook.com/" target="_blank"><div id="pngFace"></div></a>
+                        <a href="https://www.instagram.com/?hl=es-la" target="_blank"><div id="pngInsta"></div></a>
+                        <a href="https://ar.pinterest.com/" target="_blank"><div id="pngPint"></div></a>
+                        <a href="https://twitter.com/?lang=es" target="_blank"><div id="pngTw"></div></a>
+                    </p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/empresa.png" height="50px" width="50px"></span> <span class="pl-2 text-light">EsCool Producciones</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/telefono.png" height="50px" width="50px"></span> <span class="pl-2  text-light">3516640527</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/celular.png" height="50px" width="50px"></span>	<span class="pl-2  text-light">3516640527</span></p>
+                    <p class="mt-3 h5"><span class="color2"><img src="../img/iconos footer/direccion.png" height="50px" width="50px"></span> <span class="pl-2  text-light">Alvear 184 local 18</span></p>
+                    <p class="mt-3 h6"><span class="color2"><img src="../img/iconos footer/mail.png" height="50px" width="50px"></span> <span class="pl-2  text-light">escoolinfo@gmail.com</span></p>
+                   
+                    <a class="d-none d-sm-block" href="contacto.html"><button type="button" class="mt-3 btn btn-outline-light p-3"><span class="h3">Ir a Contacto</span></button></a>
+                    <a class="d-none d-sm-block" href="faq.html"><button type="button" class="mt-3 btn btn-outline-light p-3"><span class="h3">Preguntas Frecuentes</span></button></a>
+
+
+                    <a class="d-block d-sm-none" href="contacto.html"><button type="button" class="mt-3 btn btn-outline-light p-2"><span class="h5">Ir a Contacto</span></button></a>
+                    <a class="d-block d-sm-none" href="faq.html"><button type="button" class="mt-3 btn btn-outline-light p-2"><span class="h5">Preguntas Frecuentes</span></button></a>
+
+
+
+                </div>
+
+                <div class="d-none d-sm-block col-12 col-md-12 p-5 col-lg-8 " >
+                   <h3 class="color2 text-center">Encontranos en : Barrio Centro, Alvear 184 Local 18</h1><br>
+                   <iframe class="shadow-lg  " src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27273.353282144315!2d-64.3038578!3d-31.2990694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29cf7f92705%3A0xb59960c9486cf32f!2sGral.+Alvear+184%2C+X5000EAD+C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1560097338953!5m2!1ses-419!2sar" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="d-block d-sm-none col-12 col-md-12 col-lg-8 " style="padding: 0px;">
+                    <h4 class="color2 text-center px-4">Encontranos en : Barrio Centro, Alvear 184 Local 18</h4><br>
+                    <iframe class="shadow-lg  " src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27273.353282144315!2d-64.3038578!3d-31.2990694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29cf7f92705%3A0xb59960c9486cf32f!2sGral.+Alvear+184%2C+X5000EAD+C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1560097338953!5m2!1ses-419!2sar" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+           </div>
+       </div>
+       <div class="container-fluid px-5 py-1" style="background-color: black;">
+            <div class="row ">
+                <div class="col-12 text-light py-5">
+                        copyright © EsCool Producciones      -    Desarrollo y Diseño Web por <a class="text-primary" href="https://www.linkedin.com/in/pablo-joel-tulian-b9873ab2/" target="_blank">Pablo Tulian</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../js/javascript.js"></script>
+    </body>
+</html>

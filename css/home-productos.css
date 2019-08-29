@@ -1,0 +1,91 @@
+#prod1{
+    background-image: url(../img/720/Overwerk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 200px;
+}
+#prod2{
+    background-image: url(../img/720/Pine.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 200px;
+}
+#prod3{
+    background-image: url(../img/720/Simple.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 200px;
+}
+#prod4{
+    background-image: url(../img/720/Sunset.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 200px;
+}
+.p-0{
+    padding: 0px;
+}
+
+
+#prod1:hover{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #ff97da;
+}
+#prod3:hover{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #ff97da;
+}
+#prod2:hover{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #79c0de;
+}
+#prod4:hover{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #79c0de;
+}
+
+
+#bloquefondoparallax1 {
+    background-image: url("../img/productos/background-1696064_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+
+}
+#bloquefondoparallax2 {
+background-image: url("../img/productos/business-3240767_1920.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0 auto;
+padding: 0;
+position: relative;
+width: 100%;
+}
+#bloquefondoparallax3 {
+    background-image: url("../img/productos/the-adoption-of-1515298_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#blockparacontenido{
+    background-color:rgba(71, 71, 71, 0.377);
+    margin-bottom: 10%;
+}
